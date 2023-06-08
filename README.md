@@ -19,7 +19,7 @@
 <p align="justify">
   O tratamento foi necessário devido ao seu tamanho. Um arquivo .csv de
  45milhões de linhas (2,27GB)
- A estratégia usada foi após o dowload e decompressão do arquivo não 
+ A estratégia usada foi após o download e decompressão do arquivo não 
  abrir ou carregar os dados. Antes de qualquer coisa o arquivo foi 
  dividido em varios outros arquivos. Cada novo arquivo tem 1milhão de 
  linhas, totalizando 45 novos arquivos.
