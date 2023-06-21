@@ -79,7 +79,7 @@ Adicionando o cabeçalho CSV (o cabeçalho ficou no primeiro arquivo file_00.csv
 `for i in $(find . -type f -name "file_*.csv" -not -name "file_00.csv");
     do echo "$(head -1 empresas.csv)\n$(cat $i)" > $i; done`
 
-## Etapa 4: Após dividir o arquivo em vários arquivos menores, vamos usar Python limpar os dados e tirar informações que não são interessantes no momento, organizar e padronizar todos.
+## Etapa 4: Após dividir o arquivo em vários arquivos menores, vamos usar Python para limpar os dados e tirar informações que não são interessantes no momento, organizar e padronizar todos.
 
 :warning: Mesmo dividindo em arquivo menores, o processamento continua dificil. A solução encontrada foi usar o Google Colab pela sua disponibilidade de processamento e memória RAM. Abaixo segui o link para o notebook com o script em python:
 
